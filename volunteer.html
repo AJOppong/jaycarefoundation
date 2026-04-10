@@ -70,7 +70,7 @@
 
       <div class="card fade-in" style="padding: var(--spacing-lg);">
         <h3 style="margin-bottom: var(--spacing-md); color: var(--primary);">Volunteer Application</h3>
-        <form id="volunteer-form" class="needs-validation" novalidate>
+        <form id="volunteer-form" class="needs-validation" novalidate onsubmit="submitVolunteerForm(event)">
           <div class="form-group">
             <label class="form-label" for="v-name">Full Name *</label>
             <input type="text" id="v-name" class="form-control" placeholder="Jane Doe" required>
@@ -83,7 +83,7 @@
           </div>
           <div class="form-group">
             <label class="form-label" for="v-phone">Phone Number *</label>
-            <input type="tel" id="v-phone" class="form-control" placeholder="+1 (555) 000-0000" required>
+            <input type="tel" id="v-phone" class="form-control" placeholder="+233 XX XXX XXXX" required>
             <div class="invalid-feedback">Please enter your phone number.</div>
           </div>
           <div class="form-group">
@@ -144,6 +144,42 @@
   </footer>
 
   <script src="js/script.js"></script>
+  <script>
+    function submitVolunteerForm(e) {
+      const form = document.getElementById('volunteer-form');
+      if (!form.checkValidity()) {
+        e.preventDefault();
+        form.classList.add('was-validated');
+        return;
+      }
+      e.preventDefault();
+      const name    = document.getElementById('v-name').value.trim();
+      const email   = document.getElementById('v-email').value.trim();
+      const phone   = document.getElementById('v-phone').value.trim();
+      const interest = document.getElementById('v-interest').options[document.getElementById('v-interest').selectedIndex].text;
+      const message = document.getElementById('v-message').value.trim();
+
+      const subject = encodeURIComponent('Volunteer Application – ' + name);
+      const body = encodeURIComponent(
+        'Full Name: ' + name + '\n' +
+        'Email: ' + email + '\n' +
+        'Phone: ' + phone + '\n' +
+        'Area of Interest: ' + interest + '\n\n' +
+        'Message:\n' + (message || 'N/A')
+      );
+
+      window.location.href = 'mailto:care.jacfoundation@gmail.com?subject=' + subject + '&body=' + body;
+
+      // Show success feedback
+      form.reset();
+      form.classList.remove('was-validated');
+      const btn = form.querySelector('button[type="submit"]');
+      const original = btn.textContent;
+      btn.textContent = '✓ Application Sent!';
+      btn.disabled = true;
+      setTimeout(() => { btn.textContent = original; btn.disabled = false; }, 4000);
+    }
+  </script>
 </body>
 
 </html>
