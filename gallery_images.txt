@@ -1,0 +1,66 @@
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.20 (1).jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.20 (1).jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.20 (2).jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.20 (2).jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.20.jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.20.jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.21 (1).jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.21 (1).jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.21.jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.21.jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.22 (1).jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.22 (1).jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.22.jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.22.jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.23 (1).jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.23 (1).jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.23.jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.23.jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.24 (1).jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.24 (1).jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.24 (2).jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.24 (2).jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.24.jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.24.jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.25 (1).jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.25 (1).jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.25.jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.25.jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.26 (1).jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.26 (1).jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.26.jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.26.jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.27 (1).jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.27 (1).jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.27 (2).jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.27 (2).jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.27.jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.27.jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.28 (1).jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.28 (1).jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.28 (2).jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.28 (2).jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item" data-src="images/WhatsApp Image 2026-04-01 at 22.01.28.jpeg">
+          <img class="gallery-item-img" src="images/WhatsApp Image 2026-04-01 at 22.01.28.jpeg" alt="Gallery Image">
+        </div>

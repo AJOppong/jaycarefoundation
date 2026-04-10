@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volunteer & Partner | Jay's Care Foundation</title>
+  <meta name="description"
+    content="Join Jay's Care Foundation as a volunteer or partner in the Ahafo Region, Ghana. Help us deliver healthcare, food relief, and social support to vulnerable communities.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-brand" style="display:flex; align-items:center;"><img src="images/logo.jpeg"
+          alt="Jay's Care Foundation Logo"
+          style="height: 130px; margin: -30px 0 -30px -15px; mix-blend-mode: multiply; border-radius: 4px; object-fit: contain;"><span
+          style="margin-left: 15px; font-size: 1.6rem; font-weight: 800; color: var(--primary); letter-spacing: -0.5px;">Jay's
+          Care <span style="color:var(--secondary)">Foundation</span></span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="blog.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions" style="display:flex; gap:1rem; align-items:center;">
+        <a href="volunteer.html" class="btn btn-outline nav-btn-hide active"
+          style="padding: 0.5rem 1rem; font-size: 0.9rem;">Volunteer</a>
+        <a href="donation.html" class="btn btn-primary nav-btn-hide"
+          style="padding: 0.5rem 1rem; font-size: 0.9rem;">Donate</a>
+        <button class="hamburger" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="section section-light"
+    style="padding-top: 160px; text-align: center; background-color: var(--bg-secondary);">
+    <div class="container fade-in">
+      <h1 style="font-size: 3.5rem;">Join Our Movement</h1>
+      <p style="font-size: 1.2rem; color: var(--text-secondary); max-width: 600px; margin: 0 auto;">Your time and skills
+        can change the world.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container"
+      style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: var(--spacing-xl);">
+      <div class="fade-in">
+        <h2 style="font-size: 2.5rem; margin-bottom: var(--spacing-md);">Become a Volunteer</h2>
+        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Jay's Care Foundation relies on the passion and
+          dedication of volunteers to deliver our programs across the six districts of the Ahafo Region. Whether you are
+          a healthcare professional, educator, or community organizer, there is a meaningful role for you here.</p>
+        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Volunteers support our healthcare outreach
+          screenings, Feed the Street initiative, Girl Child Support Program, widow and elderly visits, and disaster
+          relief responses.</p>
+
+        <h3 style="font-size: 1.5rem; margin-top: 2rem; margin-bottom: var(--spacing-sm);">Partnerships &amp; Donations
+        </h3>
+        <p style="color: var(--text-secondary); margin-bottom: 1rem;">We welcome collaboration from donors, corporate
+          organizations, NGOs, and government institutions. Support may be in the form of financial contributions,
+          in-kind donations, volunteer services, or strategic partnerships.</p>
+        <a href="contact.html" class="btn btn-outline" style="margin-top: 0.5rem;">Discuss a Partnership &rarr;</a>
+      </div>
+
+      <div class="card fade-in" style="padding: var(--spacing-lg);">
+        <h3 style="margin-bottom: var(--spacing-md); color: var(--primary);">Volunteer Application</h3>
+        <form id="volunteer-form" class="needs-validation" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="v-name">Full Name *</label>
+            <input type="text" id="v-name" class="form-control" placeholder="Jane Doe" required>
+            <div class="invalid-feedback">Please enter your full name.</div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="v-email">Email Address *</label>
+            <input type="email" id="v-email" class="form-control" placeholder="jane@example.com" required>
+            <div class="invalid-feedback">Please enter a valid email address.</div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="v-phone">Phone Number *</label>
+            <input type="tel" id="v-phone" class="form-control" placeholder="+1 (555) 000-0000" required>
+            <div class="invalid-feedback">Please enter your phone number.</div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="v-interest">Area of Interest *</label>
+            <select id="v-interest" class="form-control" required>
+              <option value="">Select an option</option>
+              <option value="field">Field Work (International)</option>
+              <option value="local">Local Chapter Fundraising</option>
+              <option value="digital">Digital / Remote Skills</option>
+              <option value="medical">Medical / Specialized Services</option>
+            </select>
+            <div class="invalid-feedback">Please select an area of interest.</div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="v-message">Message (Optional)</label>
+            <textarea id="v-message" class="form-control"
+              placeholder="Tell us a little about your background and why you want to volunteer..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Submit
+            Application</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4 style="font-size: 1.5rem; margin-bottom: var(--spacing-sm); line-height: 1.2;">Jay's Care<br><span
+              style="color:var(--secondary); font-size: 1.1rem; letter-spacing: 1px;">FOUNDATION</span></h4>
+          <p>Improving lives in the Ahafo Region through healthcare, social support, and community empowerment.</p>
+        </div>
+        <div class="footer-col">
+          <h4 style="font-size: 1.1rem;">Quick Links</h4>
+          <a href="about.html">About Us</a>
+          <a href="programs.html">Programs</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="blog.html">News</a>
+        </div>
+        <div class="footer-col">
+          <h4 style="font-size: 1.1rem;">Get Involved</h4>
+          <a href="donation.html">Donate</a>
+          <a href="volunteer.html">Volunteer</a>
+          <a href="contact.html">Partner with us</a>
+        </div>
+        <div class="footer-col">
+          <h4 style="font-size: 1.1rem;">Contact</h4>
+          <p>Email: care.jacfoundation@gmail.com</p>
+          <p>Phone: 0542580282 / 0205845191</p>
+          <p>Goaso, Ahafo Region, Ghana</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Jay Care's Foundation. All rights reserved. Goaso, Ahafo Region, Ghana.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
