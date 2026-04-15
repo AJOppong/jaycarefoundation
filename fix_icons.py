@@ -2,7 +2,7 @@ import os
 
 FA_LINK = '  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">'
 
-files = ['index.html', 'about.html', 'programs.html', 'contact.html', 'volunteer.html', 'donation.html', 'gallery.html', 'blog.html']
+files = ['index.html', 'about.html', 'programs.html', 'contact.html', 'volunteer.html', 'donation.html', 'gallery.html']
 
 sec = 'color:var(--secondary);'
 
